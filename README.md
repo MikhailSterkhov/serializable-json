@@ -5,7 +5,10 @@
 
 ---
 ### *WARNING!*
-#### *This library is not a replacement for something more efficient in the field of JSON, it was created by me for self-practice*
+
+#### [English] *This library is not a replacement for something more efficient in the field of JSON, it was created by me for self-practice*
+
+#### [Russian] *Данная библиотека не является заменой чего-то более эффективного в сфере JSON, она создана мной ради самопрактики*
 </div>
 
 ------------------------------------------
