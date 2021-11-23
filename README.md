@@ -4,8 +4,8 @@
 [![MIT License](https://img.shields.io/github/license/pl3xgaming/Purpur?&logo=github)](License)
 
 ---
-### WARNING!
-#### This library is not a replacement for something more efficient in the field of JSON, it was created by me for self-practice
+### *WARNING!*
+#### *This library is not a replacement for something more efficient in the field of JSON, it was created by me for self-practice*
 </div>
 
 ------------------------------------------
