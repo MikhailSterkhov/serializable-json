@@ -14,7 +14,7 @@
 * **[ВКонтакте](https://vk.com/itzstonlex)**
 
 ---
-##Base API
+## Base API
 
 Creating a JSON Parser example:
 ```java
@@ -22,7 +22,7 @@ public static final JsonParser JSON_PARSER
         = JsonParser.newInstance();
 ```
 ---
-##Serialization
+## Serialization
 JSON serialization is not required for object parsing! It's a easy method for objects parsing.
 
 
