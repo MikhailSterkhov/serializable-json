@@ -21,8 +21,7 @@
 
 Creating a JSON Parser example:
 ```java
-public static final JsonParser JSON_PARSER 
-        = JsonParser.newInstance();
+public static final JsonParser JSON_PARSER = JsonParser.newInstance();
 ```
 ---
 ## Serialization
