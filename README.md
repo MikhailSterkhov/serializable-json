@@ -37,7 +37,6 @@ public static class Player implements JsonSerializable {
     private String name;
     private int status;
 
-    
     @Override
     public void serialize(@NonNull JsonMap jsonMap) {
         jsonMap.put("name", name);
