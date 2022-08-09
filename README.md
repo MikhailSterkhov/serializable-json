@@ -34,18 +34,18 @@ Creation a serializable object example:
 public static class Player implements JsonSerializable {
 
     private String name;
-    private int status;
+    private int age;
 
     @Override
     public void serialize(@NonNull JsonMap jsonMap) {
         jsonMap.put("name", name);
-        jsonMap.put("status", status);
+        jsonMap.put("age", age);
     }
 
     @Override
     public void deserialize(@NonNull JsonMap jsonMap) {
         name = jsonMap.get("name", String.class);
-        status = jsonMap.get("status", int.class);
+        age = jsonMap.get("age", int.class);
     }
 }
 ```
@@ -55,7 +55,7 @@ Deserialize objects methods without classes example:
 @Override
 public void deserialize(@NonNull JsonMap jsonMap) {
     this.name = jsonMap.<String>get("name");
-    this.status = jsonMap.<Integer>get("status");
+    this.status = jsonMap.<Integer>get("age");
 }
 ```
 ---
@@ -63,7 +63,7 @@ public void deserialize(@NonNull JsonMap jsonMap) {
 
 Parsing object to JSON example:
 ```java
-String json = JSON_PARSER.parse(new Player("ItzStonlex", 10));
+String json = JSON_PARSER.parse(new Player("ItzStonlex", 18));
 ```
 
 
