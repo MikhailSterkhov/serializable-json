@@ -54,8 +54,8 @@ Deserialize objects methods without classes example:
 ```java
 @Override
 public void deserialize(@NonNull JsonMap jsonMap) {
-    this.name = jsonMap.<String>get("name");
-    this.status = jsonMap.<Integer>get("age");
+    name = jsonMap.<String>get("name");
+    age = jsonMap.<Integer>get("age");
 }
 ```
 ---
