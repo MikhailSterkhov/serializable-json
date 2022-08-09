@@ -11,9 +11,9 @@
 </div>
 
 ------------------------------------------
-### Обратная связь
+### Feedback
 * **[Discord Server](https://discord.gg/GmT9pUy8af)**
-* **[ВКонтакте](https://vk.com/itzstonlex)**
+* **[VKontakte Page](https://vk.com/itzstonlex)**
 
 ---
 ## Base API
